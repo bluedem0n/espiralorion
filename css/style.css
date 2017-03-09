@@ -18,11 +18,24 @@ body {
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     line-height: 1.5;
     font-weight: 300;
     font-size: 1em;
     margin-top: 2em;
+}
+
+.about_espiral {
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.quienes {
+    font-size: 26px;
+}
+.personal{
+    margin-top: 0em;
 }
 
 p.small {
@@ -45,7 +58,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 1.11;
     font-weight: bold;
 }
@@ -229,7 +242,7 @@ header .menu-icon:hover i {
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar-default {
@@ -261,6 +274,7 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    margin-bottom: 1em;
 }
 
 section.success {
@@ -417,7 +431,7 @@ footer {
 
 footer .rights {
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     margin-top: 30px;
     line-height: 25px;
@@ -425,7 +439,7 @@ footer .rights {
 
 footer .rights a {
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: bold;
     color: #fff;
 }
@@ -447,6 +461,8 @@ footer img {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
+    background-color: #fff;
+    color: #1eb3d9;
 }
 
 .btn:focus,
@@ -558,7 +574,7 @@ header.home {
 }
 
 .dropdown-menu li {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar-fixed-top.navbar-shrink {
@@ -580,11 +596,6 @@ header.home .img-responsive {
 
 .heading .darkblue {
     color: #006f8a
-}
-
-@font-face {
-    font-family: 'Roboto Slab';
-    src: url('../fonts/RobotoSlab-Light.ttf');
 }
 
 .textbox .reviewcomment {
@@ -725,6 +736,7 @@ header.home .img-responsive {
 
 .fa-lg {
     margin-right: 5px !important;
+    vertical-align: -20% !important;
 }
 
 @media (min-width: 992px) {
@@ -1034,7 +1046,7 @@ div.comment-arrow {
     max-width: 100%;
     height: 100%;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 1em;
 }
 
@@ -1148,7 +1160,7 @@ div#loading {
 }
 
 .testimonial-section {
-    background-image: url("../img/TemplateImg/patient.jpg");
+    background-image: url("../images/banner_testi.png");
 }
 
 .grey-area .main_heading {
@@ -1467,7 +1479,7 @@ img.about-photo {
 }
 
 #about .list-unstyled {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 1.2em;
     line-height: 1.5;
 }

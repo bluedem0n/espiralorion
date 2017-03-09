@@ -2,13 +2,27 @@
     background: #f2f2f2;
 }
 
+.descarga {
+    margin-bottom: 0.5em;
+    color: #EB6B4A;
+}
 
+.ggplay {
+    max-width: 50%;
+    float: right;
+    margin-top: 1em;
+}
+.fa-5x {
+    font-size: 5em !important;
+}
 /******team section styles********/
 
 .team {
     padding-top: 92px;
     padding-bottom: 30px;
 }
+
+
 
 #team-slide {
     margin-top: 50px;
