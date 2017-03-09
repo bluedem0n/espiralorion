@@ -17,11 +17,17 @@
     .no-padding-large {
         padding: 0px;
     }
+    .logo-espiral {
+        display: none;
+    }
 }
 
 @media (max-width: 1200px) {
     .margin-small {
         margin: 0 15px;
+    }
+    .logo-espiral {
+        display: none;
     }
 }
 
@@ -31,6 +37,9 @@
     }
     #about .row {
         margin-right: 0px;
+    }
+    .logo-espiral {
+        display: none;
     }
 }
 
